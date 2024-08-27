@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.products,
+.cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+}
+
+.product {
+    display: flexbox;
+    text-align: center;
+    margin: 15px 20px;
+    width: 40%;
+    height: 40%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+}
+
+.img {
+    text-align: center;
+    background-color: gray;
+    width: 94%;
+    height: 300px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+nav ul li a:hover {
+    padding: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 8px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #333;
+}
